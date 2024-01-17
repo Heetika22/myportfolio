@@ -1,0 +1,113 @@
+.hello{
+    font-family: Castellar;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 0);
+    font-size: 60px;
+    text-align: left;
+  
+}
+
+.name:hover{
+    color: rgb(230, 16, 123);
+}
+
+body {
+    background-color: black;
+}
+nav {
+    background-color: #010101;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: large;
+}
+
+nav a:hover {
+    color: #333; 
+    background-color: white;
+}
+header {
+    text-align: center;
+    padding: 50px;
+}
+section {
+    padding: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.profile-picture {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile-container:hover .profile-picture {
+    transform: scale(1.1);
+}
+
+.text-container {
+    text-align: left;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+ul {
+    list-style:none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#skill{
+    margin: 0 auto;
+}
+
+#skill th,td{
+    text-align: left;
+    padding: 10px;
+}
+
+#exp {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#exp th{
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#exp td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
